@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/lib.h
+
+/cygdrive/c/Translit/main.cpp
+iostream
+-
+lib.h
+/cygdrive/c/Translit/lib.h
+
+/cygdrive/c/Translit/src/lib.cpp
+lib.h
+/cygdrive/c/Translit/src/lib.h
+
+/cygdrive/c/Translit/src/lib.h
+
